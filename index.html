@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>E-Layanan Polres</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	
+	<!-- ================== BEGIN BASE CSS STYLE ================== -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+	<link href="assets/plugins/bootstrap3/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/plugins/bootstrap4/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="assets/plugins/font-awesome/css/fontawesome.min.css" rel="stylesheet" />
+	<link href="assets/plugins/animate/animate.min.css" rel="stylesheet" />
+	<link href="assets/css/one-page-parallax/style.min.css" rel="stylesheet" />
+	<link href="assets/css/one-page-parallax/style-responsive.min.css" rel="stylesheet" />
+	<link href="assets/css/one-page-parallax/theme/default.css" id="theme" rel="stylesheet" />
+	<!-- ================== END BASE CSS STYLE ================== -->
+	
+	<!-- ================== BEGIN BASE JS ================== -->
+	<script src="assets/plugins/pace/pace.min.js"></script>
+	<!-- ================== END BASE JS ================== -->
+</head>
+<body>
+        <!-- begin #header -->
+        <div id="header" class="header navbar navbar-expand-lg navbar-default mb-0 d-none d-lg-block">
+            <!-- begin container -->
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    <span class="brand-logo text-center"></span>
+                    <span class="brand-text text-center">
+                        <span class="text-theme">E-Layanan </span> Polres
+                    </span>
+                </a>
+                <!-- begin navbar-collapse -->
+                <div class="collapse navbar-collapse justify-content-end " id="header-navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#layanan" data-toggle="dropdown">SKCK Online<b class="caret"></b></a>
+                            <ul class="dropdown-menu dropdown-menu-left animated fadeInDown">
+                                <li><a href="skck.html">SKCK Baru</a></li>
+                                <li><a href="#">SKCK Perpanjangan</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#layanan" data-toggle="dropdown">SPKT<b class="caret"></b></a>
+                            <ul class="dropdown-menu dropdown-menu-left animated fadeInDown">
+                                <li><a href="#">Kehilangan Barang</a></li>
+                                <li><a href="#">Pengawalan</a></li>
+                                <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown">Perizinan<b class="caret"></b></a>
+                                    <ul class="dropend dropdown-menu dropdown-menu-left animated fadeInRight">
+                                        <li><a href="#">Izin Keramaian</a></li>
+                                        <li><a href="#">Izin Penyampaian Pendapat</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown">Laporan<b class="caret"></b></a>
+                                    <ul class="dropend dropdown-menu dropdown-menu-left animated fadeInRight">
+                                        <li><a href="#">Orang Hilang</a></li>
+                                        <li><a href="#">Orang Asing</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#layanan">SP2HP</a></li>
+                        <li class="dropdown">
+                            <a href="#" data-toggle="dropdown">Pengaduan<b class="caret"></b></a>
+                            <ul class="dropdown-menu dropdown-menu-left animated fadeInDown">
+                                <li><a href="#">Pengaduan Umum</a></li>
+                                <li><a href="#">Pengaduan Propam</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#about" data-click="scroll-to-target">Tentang Kami</a></li>
+                        <div class="mr-0 my-auto">
+                            <a href="login.html" class="btn btn-theme btn-sm"><i class="fa fa-sign-in pr-2" aria-hidden="true"></i>Login</a>
+                        </div>
+                    </ul>
+                </div>
+                <!-- end navbar-collapse -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end #header -->
+        
+
+        <!-- begin bottom navbar -->
+        <div class="navbar navbar-expand fixed-bottom navbar-default justify-content-center d-lg-none d-xl-none mb-0 mr-2 ml-0">
+            <ul class="navbar-nav nav-justified w-100">
+                <li class="nav-item me-3">
+                    <a href="#" class="nav-link text-center">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="small d-block">Home</span>
+                    </a>
+                </li>
+                <li class="nav-item me-3">
+                    <a href="#" class="nav-link text-center">
+                        <i class="fa fa-search fa-2x"></i>
+                        <span class="small d-block">E-Layanan</span>
+                    </a>
+                </li>
+                <li class="nav-item me-3">
+                    <a href="#" class="nav-link text-center">
+                        <i class="fa fa-sign-in fa-2x"></i>
+                        <span class="small d-block">Login</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end bottom navbar -->
+
+        <!-- begin #page-container -->
+    <div id="page-container" class="fade">
+
+        <!-- begin #home -->
+        <div id="home" class="content has-bg home">
+            <!-- begin content-bg -->
+            <div class="content-bg">
+                <img src="assets/img/header-default.png" class="img-responsive" alt="Home" style="width: 100%; height: 100%;">
+            </div>
+            <!-- end content-bg -->
+            <!-- begin container -->
+            <div class="container home-content">
+                <h1>Selamat Datang</h1>
+                <h3>E-Layanan Polres</h3>
+                <p class="h4">
+                    Kami siap memberikan yang terbaik untuk kepentingan masyarakat
+                </p>
+                <a href="#" class="btn btn-theme">Explore More</a> <a href="#" class="btn btn-outline">Purchase Now</a><br />
+                <br />
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end #home -->
+        
+        <div id="layanan" class="content" data-scrollview="true">
+            <!-- begin container -->
+            <div class="container fadeInDown contentAnimated finishAnimated" data-animation="true" data-animation-type="fadeInDown">
+                <h2 class="content-title">Layanan</h2>
+                <!-- begin row -->
+                <div class="row p-t-30">
+                    <!-- begin col-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service service-vertical">
+                            <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-code"></i></div>
+                            <div class="info">
+                                <h4 class="title">SKCK Online</h4>
+                                <p class="desc">Aenean et elementum dui. Aenean massa enim, suscipit ut molestie quis, pretium sed orci. Ut faucibus egestas mattis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col-3 -->
+                    <!-- begin col-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service service-vertical">
+                            <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-paint-brush"></i></div>
+                            <div class="info">
+                                <h4 class="title">SPKT</h4>
+                                <p class="desc">SPKT bertugas memberikan pelayanan kepolisian kepada masyarakat, dalam bentuk penerimaan dan penanganan pertama laporan/pengaduan, pelayanan bantuan/pertolongan kepolisian, bersama fungsi terkait mendatangi TKP untuk melaksanakan kegiatan pengamanan dan olah TKP sesuai etentuan hukum dan peraturan yang berlaku.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col-3 -->
+                    <!-- begin col-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service service-vertical">
+                            <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-file"></i></div>
+                            <div class="info">
+                                <h4 class="title">SP2HP</h4>
+                                <p class="desc">Surat Pemberitahuan Perkembangan Hasil Penyidikan (SP2HP) merupakan hak bagi pelapor. Dalam hal menjamin akuntabilitas dan transparansi penyelidikan /penyidikan, penyidik wajib memberikan SP2HP kepada pihak pelapor baik diminta atau tidak diminta secara berkala.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col-3 -->
+                    <!-- begin col-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="service service-vertical">
+                            <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-code"></i></div>
+                            <div class="info">
+                                <h4 class="title">Pengaduan</h4>
+                                <p class="desc">Aenean et elementum dui. Aenean massa enim, suscipit ut molestie quis, pretium sed orci. Ut faucibus egestas mattis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col-3 -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+
+
+        <!-- begin #about -->
+        <div id="about" class="content" data-scrollview="true">
+            <!-- begin container -->
+            <div class="container" data-animation="true" data-animation-type="fadeInDown">
+                <h2 class="content-title">Tentang Kami</h2>
+                <p class="content-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed egestas magna, nec dignissim justo. Proin a sollicitudin dolor. Maecenas mauris risus, vulputate cursus arcu in, dignissim elementum urna. Nam aliquet neque est, non finibus turpis lobortis eget. Sed dapibus, est et malesuada ultricies, tortor dolor tempus nunc, et commodo neque risus id nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi dictum urna quis ultricies eleifend. Sed at placerat tellus. Phasellus et tempus risus. Vivamus quis neque in arcu ornare consequat in ac sapien. Aenean tempus semper nunc sed luctus. In eu vulputate ex.
+                    <br>
+                    Pellentesque lectus nulla, tristique id nunc nec, placerat feugiat mi. Sed eget arcu dignissim, tempor sem nec, placerat ligula. Nullam lobortis neque in est sagittis, vel auctor turpis lobortis. Nulla vel malesuada justo. Phasellus a pharetra augue. Curabitur a nibh nulla. Aenean molestie, lectus sed interdum condimentum, arcu diam.
+                </p>
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end #about -->
+    
+       
+        <!-- begin #footer -->
+        <div id="footer" class="footer">
+            <div class="container">
+                <div class="footer-brand">
+                    <div class="footer-brand-logo"></div>
+                    E-Layanan Polres
+                </div>
+                <p>
+                    &copy; Copyright Color Admin 2017 <br />
+                    An admin & front end theme with serious impact. Created by <a href="#">SeanTheme</a>
+                </p>
+                <p class="social-list">
+                    <a href="#"><i class="fa fa-facebook fa-fw"></i></a>
+                    <a href="#"><i class="fa fa-instagram fa-fw"></i></a>
+                    <a href="#"><i class="fa fa-twitter fa-fw"></i></a>
+                    <a href="#"><i class="fa fa-google-plus fa-fw"></i></a>
+                    <a href="#"><i class="fa fa-dribbble fa-fw"></i></a>
+                </p>
+            </div>
+        </div>
+        <!-- end #footer -->
+        
+        <!-- begin theme-panel -->
+        <div class="theme-panel">
+            <a href="javascript:;" data-click="theme-panel-expand" class="theme-collapse-btn"><i class="fa fa-cog"></i></a>
+            <div class="theme-panel-content">
+                <ul class="theme-list clearfix">
+                    <li><a href="javascript:;" class="bg-purple" data-theme="purple" data-theme-file="assets/css/one-page-parallax/theme/purple.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Purple">&nbsp;</a></li>
+                    <li><a href="javascript:;" class="bg-blue" data-theme="blue" data-theme-file="assets/css/one-page-parallax/theme/blue.css" data-theme-file="" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Blue">&nbsp;</a></li>
+                    <li class="active"><a href="javascript:;" class="bg-green" data-theme-file="assets/css/one-page-parallax/theme/default.css" data-theme-file="" data-theme="default" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Default">&nbsp;</a></li>
+                    <li><a href="javascript:;" class="bg-orange" data-theme="orange" data-theme-file="assets/css/one-page-parallax/theme/orange.css" data-theme-file="" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Orange">&nbsp;</a></li>
+                    <li><a href="javascript:;" class="bg-red" data-theme="red" data-theme-file="assets/css/one-page-parallax/theme/red.css" data-theme-file="" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Red">&nbsp;</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end theme-panel -->
+    </div>
+    <!-- end #page-container -->
+	
+	<!-- ================== BEGIN BASE JS ================== -->
+	<script src="assets/plugins/jquery/jquery-3.2.1.min.js"></script>
+	<script src="assets/plugins/bootstrap3/js/bootstrap.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="assets/crossbrowserjs/html5shiv.js"></script>
+		<script src="assets/crossbrowserjs/respond.min.js"></script>
+		<script src="assets/crossbrowserjs/excanvas.min.js"></script>
+	<![endif]-->
+	<script src="assets/plugins/js-cookie/js.cookie.js"></script>
+	<script src="assets/plugins/scrollMonitor/scrollMonitor.js"></script>
+	<script src="assets/js/one-page-parallax/apps.min.js"></script>
+	<!-- ================== END BASE JS ================== -->
+	
+	<script>    
+	    $(document).ready(function() {
+	        App.init();
+	    });
+	</script>
+</body>
+</html>
