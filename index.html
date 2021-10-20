@@ -13,7 +13,7 @@
 	<link href="assets/plugins/bootstrap3/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/plugins/bootstrap4/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-	<link href="assets/plugins/font-awesome/css/fontawesome.min.css" rel="stylesheet" />
+	<link href="assets/plugins/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
 	<link href="assets/plugins/animate/animate.min.css" rel="stylesheet" />
 	<link href="assets/css/one-page-parallax/style.min.css" rel="stylesheet" />
 	<link href="assets/css/one-page-parallax/style-responsive.min.css" rel="stylesheet" />
@@ -91,23 +91,23 @@
         
 
         <!-- begin bottom navbar -->
-        <div class="navbar navbar-expand fixed-bottom navbar-default justify-content-center d-lg-none d-xl-none mb-0 mr-2 ml-0">
+        <div id="header" class="header navbar navbar-expand fixed-bottom navbar-default justify-content-center d-lg-none d-xl-none mb-0 mr-2 ml-0">
             <ul class="navbar-nav nav-justified w-100">
                 <li class="nav-item me-3">
-                    <a href="#" class="nav-link text-center">
+                    <a href="index.html" class="nav-link text-center">
                         <i class="fa fa-home fa-2x"></i>
                         <span class="small d-block">Home</span>
                     </a>
                 </li>
                 <li class="nav-item me-3">
-                    <a href="#" class="nav-link text-center">
+                    <a href="e-layanan-mobile.html" class="nav-link text-center">
                         <i class="fa fa-search fa-2x"></i>
                         <span class="small d-block">E-Layanan</span>
                     </a>
                 </li>
                 <li class="nav-item me-3">
                     <a href="#" class="nav-link text-center">
-                        <i class="fa fa-sign-in fa-2x"></i>
+                        <i class="fa fa-sign-in-alt fa-2x"></i>
                         <span class="small d-block">Login</span>
                     </a>
                 </li>
@@ -122,7 +122,7 @@
         <div id="home" class="content has-bg home">
             <!-- begin content-bg -->
             <div class="content-bg">
-                <img src="assets/img/header-default.png" class="img-responsive" alt="Home" style="width: 100%; height: 100%;">
+                <img src="assets/img/header-default.png" class="img-responsive" alt="Home">
             </div>
             <!-- end content-bg -->
             <!-- begin container -->
@@ -142,55 +142,54 @@
         <div id="layanan" class="content" data-scrollview="true">
             <!-- begin container -->
             <div class="container fadeInDown contentAnimated finishAnimated" data-animation="true" data-animation-type="fadeInDown">
-                <h2 class="content-title">Layanan</h2>
+                <h2 class="content-title">Mekanisme e-Layanan Polres</h2>
                 <!-- begin row -->
-                <div class="row p-t-30">
-                    <!-- begin col-3 -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service service-vertical">
-                            <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-code"></i></div>
-                            <div class="info">
-                                <h4 class="title">SKCK Online</h4>
-                                <p class="desc">Aenean et elementum dui. Aenean massa enim, suscipit ut molestie quis, pretium sed orci. Ut faucibus egestas mattis.</p>
+                <div class="row mb-5">
+                    <div class="card-deck">
+                            <div class="card text-white bg-dark">
+                                <div class="card-body">
+                                <i class="fa fa-pencil-square-o fa-4x" aria-hidden="true"></i>
+                                    <h1 class="card-title text-white font-weight-bold">01.</h1>
+                                    <h3 class="card-subtitle mb-2 text-white font-weight-bold">Tulis Laporan</h3>
+                                    <p class="card-text h4 mb-2">Laporkan keluhan atau aspirasi anda dengan jelas dan lengkap.</p>
+                                </div>
+                            </div>
+                            <div class="card text-white bg-dark">
+                                <div class="card-body">
+                                    <i class="fa fa-check-square fa-4x" aria-hidden="true"></i>
+                                        <h1 class="card-title text-white font-weight-bold">02.</h1>
+                                        <h3 class="card-subtitle mb-2 text-white font-weight-bold">Proses Verifikasi</h3>
+                                        <p class="card-text h4 mb-2">Dalam 3 hari, laporan Anda akan diverifikasi dan diteruskan kepada instansi berwenang.</p>
+                                    </div>
+                            </div>
+                            <div class="card text-white bg-dark">
+                                <div class="card-body">
+                                    <i class="fa fa-hand-o-right fa-4x" aria-hidden="true"></i>
+                                        <h1 class="card-title text-white font-weight-bold">03.</h1>
+                                        <h3 class="card-subtitle mb-2 text-white font-weight-bold">Proses Tindak Lanjut</h3>
+                                        <p class="card-text h4 mb-2">Dalam 5 hari, instansi akan menindaklanjuti dan membalas laporan Anda.</p>
+                                    </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- end col-3 -->
-                    <!-- begin col-3 -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service service-vertical">
-                            <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-paint-brush"></i></div>
-                            <div class="info">
-                                <h4 class="title">SPKT</h4>
-                                <p class="desc">SPKT bertugas memberikan pelayanan kepolisian kepada masyarakat, dalam bentuk penerimaan dan penanganan pertama laporan/pengaduan, pelayanan bantuan/pertolongan kepolisian, bersama fungsi terkait mendatangi TKP untuk melaksanakan kegiatan pengamanan dan olah TKP sesuai etentuan hukum dan peraturan yang berlaku.</p>
+                        <div class="card-deck mt-sm-2 mt-md-3">
+                            <div class="card text-white bg-dark">
+                                <div class="card-body">
+                                    <i class="fa fa-commenting fa-4x" aria-hidden="true"></i>
+                                        <h1 class="card-title text-white font-weight-bold">04.</h1>
+                                        <h3 class="card-subtitle mb-2 text-white font-weight-bold">Beri Tanggapan</h3>
+                                        <p class="card-text h4 mb-2">Anda dapat menanggapi kembali balasan yang diberikan oleh instansi dalam waktu 10 hari.</p>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <!-- end col-3 -->
-                    <!-- begin col-3 -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service service-vertical">
-                            <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-file"></i></div>
-                            <div class="info">
-                                <h4 class="title">SP2HP</h4>
-                                <p class="desc">Surat Pemberitahuan Perkembangan Hasil Penyidikan (SP2HP) merupakan hak bagi pelapor. Dalam hal menjamin akuntabilitas dan transparansi penyelidikan /penyidikan, penyidik wajib memberikan SP2HP kepada pihak pelapor baik diminta atau tidak diminta secara berkala.</p>
+                            <div class="card text-white bg-dark">
+                                <div class="card-body">
+                                    <i class="fa fa-check fa-4x" aria-hidden="true"></i>
+                                        <h1 class="card-title text-white font-weight-bold">05.</h1>
+                                        <h3 class="card-subtitle mb-2 text-white font-weight-bold">Selesai</h3>
+                                        <p class="card-text h4 mb-2">Laporan Anda akan terus ditindaklanjuti hingga terselesaikan.</p>
+                                    </div>
                             </div>
-                        </div>
                     </div>
-                    <!-- end col-3 -->
-                    <!-- begin col-3 -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service service-vertical">
-                            <div class="icon bg-theme bounceIn contentAnimated finishAnimated" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-code"></i></div>
-                            <div class="info">
-                                <h4 class="title">Pengaduan</h4>
-                                <p class="desc">Aenean et elementum dui. Aenean massa enim, suscipit ut molestie quis, pretium sed orci. Ut faucibus egestas mattis.</p>
-                            </div>
-                        </div>
                     </div>
-                    <!-- end col-3 -->
-                </div>
-                <!-- end row -->
             </div>
             <!-- end container -->
         </div>
